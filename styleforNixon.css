@@ -1,0 +1,30 @@
+body{
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: rgb(206, 33, 33);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    border: 20px solid white;
+    height: 670px;
+}
+
+.textAbt{
+    width: 700px;
+}
+
+.title{
+    font-size: 8rem;
+}
+
+
+.bigPic{
+    width: 300px;
+}
+

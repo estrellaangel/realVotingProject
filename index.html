@@ -12,28 +12,37 @@
         <link rel='shortcut icon' href='' type='image/x-icon'>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='style.css'>
     </head>
     <body>
-        <div class="title">Voting Center</div>
+        <div class="title">US Voting Center</div>
 
         <div class="main">
             <div class="moreInfo">
                 <ul>
                     <li class="richardInfo" id="richardInfo">
                         <div class="name">Richard Nixon</div>
-                        <div class="img"></div>
+                        <img class="peopleImgs" alt="img didnt work" src="images/richard.png"></img>
                         <div class="indivInfo"></div>
+                        <a class="moreInfoBtn" href="moreInfoRichard.html">Click Here for More Info</a>
                     </li>
                     <li class="georgeInfo" id="georgeInfo">
                         <div class="name">George McGovern</div>
-                        <div class="img"></div>
+                        <img alt="img didnt work" src="https://upload.wikimedia.org/wikipedia/commons/a/a6/GeorgeStanleyMcGovern.jpg" class="peopleImgs"></img>
                         <div class="indivInfo"></div>
+                        <a class="moreInfoBtn" href="moreInfoGeorge.html">Click Here for More Info</a>
                     </li>
                 </ul>
             </div>
             <div class="votingImgs">
-                <button class="votePage">Click Here to Vote</button>
+                <div class="votingQuote">
+                    <div class="quote">
+                        "The ballot is stronger than the bullet"
+                    </div>
+                    <div class="votingQuoter">- Abraham Lincoln</div>
+                </div>
+                <a href="votingPage.html" class="votePage">Click Here to Vote</a>
                 <img src="images/ballot box.png" alt="lol the image didn't work" class="ballotBox">
             </div>
         </div>

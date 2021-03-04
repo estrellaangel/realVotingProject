@@ -5,7 +5,7 @@
 
 body{
     background-color: rgb(206, 231, 255);
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 ul{
@@ -25,16 +25,23 @@ ul{
     justify-content: center;
 }
 
-img{
+img.ballotBox{
     height: 200px;
     width: 300px;
 }
 
 .votePage{
+    color:black;
+    text-decoration: none;
     padding: 15px;
     font-size: 2rem;
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 29px;
+    background-color: rgba(255, 255, 255, .70);
+}
+
+.votePage:hover{
+    background-color: rgba(255, 255, 255, 1.0);
 }
 
 .votingImgs{
@@ -49,6 +56,30 @@ img{
     border-radius: 16px;
 }
 
+.votingQuote{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    color: white;
+}
+.quote{
+    background-color: rgb(119, 119, 119);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.votingQuoter{
+    background: none;
+    font-size: 1rem;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: rgb(243, 243, 243);
+}
+
 .moreInfo{
     display: flex;
     flex-direction: column;
@@ -60,15 +91,42 @@ img{
     border: 2px rgba(255, 255, 255, .70) solid;
     border-radius: 10%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
 }
 
 .name{
-    margin-top: 10px;
     padding: 5px;
-    background-color: rgba(255, 255, 255, .70);
-    margin-left: 30px;
-    margin-right: 30px;
+    background-color: rgba(255, 255, 255, .90);
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.peopleImgs{
+    width: 100px
+}
+
+.moreInfoBtn{
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    font-family: 'Shippori Mincho B1', serif;
+    padding: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, .60);
+}
+
+.moreInfoBtn:hover{
+    background-color: rgba(255, 255, 255, 1.0);
 }
 
 .richardInfo{
