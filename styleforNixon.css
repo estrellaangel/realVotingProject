@@ -11,18 +11,43 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     background-color: white;
-    border: 20px solid white;
+    border: 40px solid white;
     height: 670px;
 }
 
 .textAbt{
-    width: 700px;
+    width: 800px;
+    margin-right: 50px;
+
 }
 
 .title{
     font-size: 8rem;
 }
 
+.imgAndLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(206, 33, 33, 0.5);
+    border-radius: 16px;
+    }
+
+.link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(206, 33, 33, 1);
+    text-decoration: none;
+}
 
 .bigPic{
     width: 300px;
