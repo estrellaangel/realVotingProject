@@ -10,10 +10,51 @@
         <meta property='og:description' content=''>
         <meta property='og:title' content=''>
         <link rel='shortcut icon' href='' type='image/x-icon'>
-        <link rel='stylesheet' href='css/style.css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='votingPage.css'>
     </head>
     <body>
-        
-        <script src='script.js'></script>
+        <div class="screen" id="wholeScreen">
+            <div class="ballotChoice" id="ballotChoice">
+                <div class="ballotTitle">Ballot
+                    <div class="instruction">click on the candidate you want to vote for</div>
+                </div>
+                
+                <div class="ballotBtns">
+                    <div class="voteForRichard" id="voteForRichard">
+                        <div class="name">Richard Nixon</div>
+                        <div class="party">Republican</div>
+                    </div>
+                    <div class="voteForGeorge" id="voteForGeorge">
+                        <div class="name">George McGovern</div>
+                        <div class="party">Democrat</div>
+                    </div>
+                </div>
+            </div>
+            <span class="pic arrow-down" id="arrow"></span>
+            <img src="images/ballot.png" alt="ballot" class="ballot hide" id="ballot">
+            <div class="surroundingScreen" id="surroundingScreen">
+                <img src="images/ballot box.png" alt="ballotBox" class="ballotBox" id="ballotBox">
+            </div>
+        </div>
+        <script src='votingPage.js'></script>
     </body>
 </html>
+
+<!-- 
+Here is a list of everything I need to see for you to get a 100%.
+**A landing page where you can choose between the 2 candidates.
+An on page load event 
+A mouse move event listener
+**An onclick event listener
+A context menu event
+A mouse over event listener and a mouse leave event listener
+An object that moves around the page using clientX and clientY
+Using “this” for on clicks
+A loop that will create several elements at once
+Adding event listeners AND removing event listeners 
+A custom cursor either sometimes or always visible  
+-->
+
