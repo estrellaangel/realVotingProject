@@ -92,7 +92,7 @@ body{
 
 .arrow-down {
     position: absolute;
-    top: 38vh;
+    top: 42vh;
     left: 50%;
     transform: translateX(-50%);
     border-left: 30px solid transparent;
@@ -102,7 +102,7 @@ body{
 
 .ballot{
     position: absolute;
-    top: 39vh;
+    top: 45vh;
     left: 50%;
     transform: translateX(-50%);
     transition: all 2s;

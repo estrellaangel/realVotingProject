@@ -39,17 +39,26 @@ let makeBadBallot = function(){
         xMouse = event.clientX;     // Get the horizontal coordinate
         yMouse = event.clientY;     // Get the vertical coordinate
 
-        console.log(`the x cordinates of the mouse are ${xMouse}`);
-        console.log(`the y cordinates of the mouse are ${yMouse}`);
+        // console.log(`the x cordinates of the mouse are ${xMouse}`);
+        // console.log(`the y cordinates of the mouse are ${yMouse}`);
         
-        if((yMouse - 40) <= yBallotBox ){}
+        if((yMouse - 40) <= yBallotBox ){
+
+        };
     })}, 4600)
+
+
 }
 
 let makeGoodBallot = function(){
     prepBallot();
 }
 
+let changeCursor = function(){
+    document.getElementById("body").style.cursor = "pointer";
+}
+
+ballot.addEventListener('click', changeCursor);
 voteForGeorge.addEventListener('click', makeBadBallot);
 voteForRichard.addEventListener('click', makeGoodBallot);
 
